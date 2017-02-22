@@ -6,9 +6,36 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		83806F021E5E415B00EBDD66 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83806F011E5E415B00EBDD66 /* main.cpp */; };
-/* End PBXBuildFile section */
+/* Begin PBXContainerItemProxy section */
+		835938741E5E4AF600C20996 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 835938701E5E4AF500C20996 /* ParkingLotSimulator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 835938661E5E4AF500C20996;
+			remoteInfo = ParkingLotSimulator;
+		};
+		835938941E5E4C8300C20996 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 835938901E5E4C8200C20996 /* MagicSquare.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 835938861E5E4C8200C20996;
+			remoteInfo = MagicSquare;
+		};
+		835938AD1E5E4EF500C20996 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 835938A91E5E4EF400C20996 /* EmployeeDatabase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8359389F1E5E4EF400C20996;
+			remoteInfo = EmployeeDatabase;
+		};
+		835938C71E5E506900C20996 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 835938C31E5E506800C20996 /* AirshipPolymorphism.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 835938B91E5E506800C20996;
+			remoteInfo = AirshipPolymorphism;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		83806EFC1E5E415B00EBDD66 /* CopyFiles */ = {
@@ -23,8 +50,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		83806EFE1E5E415B00EBDD66 /* CPP_code_review */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPP_code_review; sourceTree = BUILT_PRODUCTS_DIR; };
-		83806F011E5E415B00EBDD66 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		835938701E5E4AF500C20996 /* ParkingLotSimulator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ParkingLotSimulator.xcodeproj; path = ParkingLotSimulator/ParkingLotSimulator.xcodeproj; sourceTree = "<group>"; };
+		835938901E5E4C8200C20996 /* MagicSquare.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MagicSquare.xcodeproj; path = MagicSquare/MagicSquare.xcodeproj; sourceTree = "<group>"; };
+		835938A91E5E4EF400C20996 /* EmployeeDatabase.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EmployeeDatabase.xcodeproj; path = EmployeeDatabase/EmployeeDatabase.xcodeproj; sourceTree = "<group>"; };
+		835938C31E5E506800C20996 /* AirshipPolymorphism.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AirshipPolymorphism.xcodeproj; path = AirshipPolymorphism/AirshipPolymorphism.xcodeproj; sourceTree = "<group>"; };
+		83806EFE1E5E415B00EBDD66 /* CPP_code_review */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = CPP_code_review; path = /Users/cherylestacio/Development/CPP_code_review/build/Debug/CPP_code_review; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,28 +68,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		83806EF51E5E415B00EBDD66 = {
+		835938711E5E4AF500C20996 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83806F001E5E415B00EBDD66 /* CPP_code_review */,
-				83806EFF1E5E415B00EBDD66 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		83806EFF1E5E415B00EBDD66 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				83806EFE1E5E415B00EBDD66 /* CPP_code_review */,
+				835938751E5E4AF600C20996 /* ParkingLotSimulator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83806F001E5E415B00EBDD66 /* CPP_code_review */ = {
+		835938911E5E4C8200C20996 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83806F011E5E415B00EBDD66 /* main.cpp */,
+				835938951E5E4C8300C20996 /* MagicSquare */,
 			);
-			path = CPP_code_review;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		835938AA1E5E4EF400C20996 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				835938AE1E5E4EF500C20996 /* EmployeeDatabase */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		835938C41E5E506800C20996 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				835938C81E5E506900C20996 /* AirshipPolymorphism */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83806EF51E5E415B00EBDD66 = {
+			isa = PBXGroup;
+			children = (
+				835938C31E5E506800C20996 /* AirshipPolymorphism.xcodeproj */,
+				835938A91E5E4EF400C20996 /* EmployeeDatabase.xcodeproj */,
+				835938901E5E4C8200C20996 /* MagicSquare.xcodeproj */,
+				835938701E5E4AF500C20996 /* ParkingLotSimulator.xcodeproj */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,8 +153,26 @@
 				en,
 			);
 			mainGroup = 83806EF51E5E415B00EBDD66;
-			productRefGroup = 83806EFF1E5E415B00EBDD66 /* Products */;
+			productRefGroup = 83806EF51E5E415B00EBDD66;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 835938C41E5E506800C20996 /* Products */;
+					ProjectRef = 835938C31E5E506800C20996 /* AirshipPolymorphism.xcodeproj */;
+				},
+				{
+					ProductGroup = 835938AA1E5E4EF400C20996 /* Products */;
+					ProjectRef = 835938A91E5E4EF400C20996 /* EmployeeDatabase.xcodeproj */;
+				},
+				{
+					ProductGroup = 835938911E5E4C8200C20996 /* Products */;
+					ProjectRef = 835938901E5E4C8200C20996 /* MagicSquare.xcodeproj */;
+				},
+				{
+					ProductGroup = 835938711E5E4AF500C20996 /* Products */;
+					ProjectRef = 835938701E5E4AF500C20996 /* ParkingLotSimulator.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				83806EFD1E5E415B00EBDD66 /* CPP_code_review */,
@@ -114,12 +180,42 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		835938751E5E4AF600C20996 /* ParkingLotSimulator */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ParkingLotSimulator;
+			remoteRef = 835938741E5E4AF600C20996 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		835938951E5E4C8300C20996 /* MagicSquare */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = MagicSquare;
+			remoteRef = 835938941E5E4C8300C20996 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		835938AE1E5E4EF500C20996 /* EmployeeDatabase */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = EmployeeDatabase;
+			remoteRef = 835938AD1E5E4EF500C20996 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		835938C81E5E506900C20996 /* AirshipPolymorphism */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = AirshipPolymorphism;
+			remoteRef = 835938C71E5E506900C20996 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXSourcesBuildPhase section */
 		83806EFA1E5E415B00EBDD66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83806F021E5E415B00EBDD66 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +342,7 @@
 				83806F071E5E415B00EBDD66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "83806EFD1E5E415B00EBDD66"
-               BuildableName = "CPP_code_review"
-               BlueprintName = "CPP_code_review"
-               ReferencedContainer = "container:CPP_code_review.xcodeproj">
+               BlueprintIdentifier = "8359389E1E5E4EF400C20996"
+               BuildableName = "EmployeeDatabase"
+               BlueprintName = "EmployeeDatabase"
+               ReferencedContainer = "container:EmployeeDatabase.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "83806EFD1E5E415B00EBDD66"
-            BuildableName = "CPP_code_review"
-            BlueprintName = "CPP_code_review"
-            ReferencedContainer = "container:CPP_code_review.xcodeproj">
+            BlueprintIdentifier = "8359389E1E5E4EF400C20996"
+            BuildableName = "EmployeeDatabase"
+            BlueprintName = "EmployeeDatabase"
+            ReferencedContainer = "container:EmployeeDatabase.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "83806EFD1E5E415B00EBDD66"
-            BuildableName = "CPP_code_review"
-            BlueprintName = "CPP_code_review"
-            ReferencedContainer = "container:CPP_code_review.xcodeproj">
+            BlueprintIdentifier = "8359389E1E5E4EF400C20996"
+            BuildableName = "EmployeeDatabase"
+            BlueprintName = "EmployeeDatabase"
+            ReferencedContainer = "container:EmployeeDatabase.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "83806EFD1E5E415B00EBDD66"
-            BuildableName = "CPP_code_review"
-            BlueprintName = "CPP_code_review"
-            ReferencedContainer = "container:CPP_code_review.xcodeproj">
+            BlueprintIdentifier = "8359389E1E5E4EF400C20996"
+            BuildableName = "EmployeeDatabase"
+            BlueprintName = "EmployeeDatabase"
+            ReferencedContainer = "container:EmployeeDatabase.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
